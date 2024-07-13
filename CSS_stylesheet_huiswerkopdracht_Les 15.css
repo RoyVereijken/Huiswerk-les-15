@@ -1,0 +1,90 @@
+html{
+background-color: rgb(180, 180, 180);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 25px;
+    background-color: rgb(141, 141, 141);;
+}
+header{
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+   
+}
+footer{
+    padding: 25px;
+}
+
+#menu {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(4, 20, 79);
+    border-radius: 5px;
+}
+a{
+    color: white;
+    font-weight: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+#menu:hover{
+    background-color: rgb(57, 183, 237);
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+   
+textarea{ 
+    height: 200px;
+    background-color: aqua;
+   }
+
+button:active {
+    color: blue;
+    border-radius: 4px;
+    background-color: aquamarine;
+    box-shadow: inset 2px 2px 2px red;
+}
+
+table{
+    text-align: middle;
+    width: 100%;
+}
+
+#kop{ 
+    font-size: large;
+    font-weight: bold;
+   
+}
+#info{ 
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
+}
+
+input[type="text"], textarea, button
+    {
+    display: block;
+    Margin: 10px 0px;
+    width: 400px;
+    }
+
+footer {
+    background-color: aquamarine;
+}
+
